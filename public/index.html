@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Marketplace Smart Contract</title>
+</head>
+<body>
+  <h1>Marketplace Smart Contract</h1>
+  <p>Status: <span id="status"></span></p>
+  <p>
+    <button onclick="setStatus('Shipped')">Set as Shipped</button>
+    <button onclick="setStatus('Delivered')">Set as Delivered</button>
+    <button id="connect-button" onclick="connectToMetaMask()">Se connecter à MetaMask</button>
+  </p>
+
+  <script src="../node_modules/web3/dist/web3.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
